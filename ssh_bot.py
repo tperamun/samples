@@ -37,7 +37,7 @@ def connect(user, host, password):
 def main():
     host = '192.168.0.17'
     user = 'timal'
-    password = 'ballislife9'
+    password = ''
     child = connect(user, host, password)
     send_command(child, 'ls -al')
     send_command(child, 'cd Desktop')
