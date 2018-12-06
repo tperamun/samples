@@ -48,7 +48,11 @@ def add_bot(host, user, password):
 
 
 if __name__ == '__main__':
+<<<<<<< HEAD
 	add_bot('192.168.0.17', 'timal', 'yerr')
+=======
+	add_bot('192.168.0.17', 'timal', '')
+>>>>>>> fdcd46f131f67a1a46459ef0d5842e3d458e3aa6
 	botnet_command("uname -v")
 
 
